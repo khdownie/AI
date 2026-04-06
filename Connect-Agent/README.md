@@ -41,10 +41,10 @@ The agent reads `config/variables.yaml`, follows the instructions and references
 |-----------------------|----------|------------------------------------------------------|
 | `connectPeriodStart`  | Yes      | Start date of the Connect period (MM-DD-YYYY)        |
 | `connectPeriodEnd`    | Yes      | End date of the Connect period (MM-DD-YYYY)          |
-| `personalNotesPath`   | Yes      | Full path to your personal Connect notes file        |
-| `exampleDocumentPath` | Yes      | Full path to an example Connect doc from a prior period |
-| `adoUserStoriesQuery` | Yes      | ADO query URL for your completed user stories        |
-| `adoMentionsQuery`    | No       | ADO query URL for items that mention you by name     |
+| `personalNotesPath`   | Yes      | Full path to a document with your own notes about impact and activities. So, you would consolidate into a document anything you can remember (or you have already recorded) about your impact and activities during the last period. Don’t be overly perfectionist. This document just grounds the agent with your recollection of big rock accomplishments.        |
+| `exampleDocumentPath` | Yes      |Full path to an example “Looking Back” document from a prior period. All I did here was export my looking back section into a document so that the agent could have an example of how to structure the output. |
+| `adoUserStoriesQuery` | Yes      | ADO query URL for your completed user stories. I just created a query that captured all completed user stories assigned to me over the months of this last connect period. Then, just grab the URL of the query. That’s it.        |
+| `adoMentionsQuery`    | No       | ADO query URL for items that mention you by name. Here I created a query that shows dependency items where I was a collaborator. In these cases, the items might not be assigned to me, but I had some involvement in their completion. That involvement manifests as comments in the item or files attached or associated with the item.     |
 
 The agent will gather data from all sources and produce a Connect document organized under three impact categories.
 
