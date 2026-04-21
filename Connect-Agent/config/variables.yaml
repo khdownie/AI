@@ -10,9 +10,9 @@ connectPeriodStart: "10-01-2025"
 connectPeriodEnd: "3-31-2026"
 
 # --- Personal Documents ---
-personalNotesPath: "C:\\Directory\\fileName.docx"
-exampleDocumentPath: "C:\\Directory\\fileName.docx"
+personalNotesPath: "C:\\github\\raw-connect-notes.txt"
+exampleDocumentPath: "C:\\github\\ConnectOct2025.docx"
 
 # --- Azure DevOps Queries ---
-adoUserStoriesQuery: "YourQueryLink"
-adoMentionsQuery: "YourQueryLink"
+adoUserStoriesQuery: "https://dev.azure.com/msft-skilling/Content/_queries/query-edit/91f213ab-860b-41da-9e8d-28e4b8aaae6d/"
+# adoMentionsQuery: "YourQueryLink"
